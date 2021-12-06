@@ -7,24 +7,33 @@ html{
     font-size: 100%;
     
 }
+a{
+    text-decoration: none;
+    color: #333;
+}
+ul,li{
+    list-style: none;
+}
 body {
     font-family:"Roboto Condensed", sans-serif;
 }
 :root{
     --yellow-main:#fed700;
     --gray-bgr:#ececec;
+    --aqua-color:rgb(16, 233, 233);
 }
 img{
     width: 100%;
     object-fit:cover;
 }
 .wrapper{
-    
+    background-color: #cecece;
 }
 
 
 #header{
     width: 100%;
+    background-color: #fff;
 }
 .header-wrapper{
 
@@ -117,20 +126,82 @@ img{
             font-size:20px;
         }
 .header-bottom{
-
+    width: 100%;
+    background-color:var(--yellow-main);
 }
     .header__nav{
-
+        margin:auto;
+        max-width: 1200px;
     }
     .header__nav-wrapper{
-
+        display:flex;
     }
     .nav-item{
-
+        flex-grow: 1;
+        position: relative;
+    }
+    .nav-item::before{
+        content: "";
+        position: absolute;
+        
+        height: 4px;
+        top: 0;
+        left: 50%;
+        background-color: var(--aqua-color);
+        width: 0;
+        transition: width .3s, left .3s;
+    }
+    .nav-item:hover::before{
+        
+        left:0;
+        width: 100%;
+    }
+    
+    .nav-item>a{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding:10px 0
+    }
+    .nav-item>a>i{
+        font-size:20px;
+        margin-bottom: 5px;
     }
     .subnav{
+        position: absolute;
+        width: max-content;
+        border-radius: 5px;
+        left: 0;
+        top: 100%;
+        background: white;
+        box-shadow:  0 4px 6px #ccc;;
+        text-align: start;
+        padding: 15px 0;
 
+        opacity: 0;
+        visibility: hidden;
+        transition: opacity 0.3s;
     }
+    .nav-item:hover .subnav{
+        opacity: 1;
+        visibility: visible;
+    }
+    .subnav li{
+        padding:5px 20px;
+        font-size:12px;
+    }
+    .subnav li a{
+        transition:color .2s;
+    }
+    .subnav li a:hover{
+        color: var(--yellow-main);
+    }
+    .subnav h4:first-child{
+        font-weight: bold;
+        padding:5px 20px;
+    }
+    
 
 
 #main{
