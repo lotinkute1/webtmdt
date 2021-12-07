@@ -1,0 +1,42 @@
+
+.flickity-prev-next-button {
+    width: 40px;
+    height: 40px;
+    background:#fed80079 ;
+    color: rgba(255, 255, 255, 0.8);
+    transition: color .3s,background .3s;
+}
+.flickity-prev-next-button:hover {
+    color: white;
+    background:#fed700 ;
+    /* background: transparent; */
+}
+.flickity-prev-next-button:disabled {
+    display: none;
+}
+.carousel {
+    background: #EEE;
+  }
+  
+  .carousel-cell {
+    width: 25%;
+    
+    margin-right: 10px;
+    /* background: #8C8; */
+    border-radius: 5px;
+    counter-increment: carousel-cell;
+  }
+  
+  .carousel-cell.is-selected {
+    /* background: #ED2; */
+  }
+  
+  /* cell number */
+  /* .carousel-cell:before {
+    display: block;
+    text-align: center;
+    content: counter(carousel-cell);
+    line-height: 200px;
+    font-size: 80px;
+    color: white;
+  } */
