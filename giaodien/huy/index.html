@@ -1,0 +1,1869 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web home</title>
+    <!-- flickity css -->
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <!-- css -->
+    <link rel="stylesheet" href="./assets/css/gridSys.css">
+    <link rel="stylesheet" href="./assets/css/slides.css">
+    <link rel="stylesheet" href="./assets/css/index.css">
+    <link rel="stylesheet" href="./assets/css/itemsSlides.css">
+    <!-- fa css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="wrapper">
+
+        <!-- header -->
+        <header id="header">
+            <div class="header-wrapper">
+                <div class="header-top">
+                    <div class="header-top-wrapper">
+
+                        <div class="header__logo">
+                            <a href="">
+                                <img src="./assets/images/logo-web.png" alt="">
+                            </a>
+                        </div>
+                        <!-- <div class="header__menu">
+                            <div class="header__menu-icon"></div>
+                            <div class="header__menu-title">Tất cả phụ kiện</div>
+                        </div> -->
+                        <div class="header__search">
+                            <input placeholder="Tìm kiếm sản phẩm" type="text" class="header__search-input">
+                            <button type="text" class="header__search-search"><i class="fas fa-search"></i>Tìm
+                                kiếm</button>
+                        </div>
+                        <div class="header__cart">
+                            <i class="fas fa-shopping-cart"></i>
+                            <div class="header__cart__popup">
+                                <div>
+                                    <h3 class="header__cart__title" >sản phẩm vừa mới thêm</h3>
+                                    <div class="header__cart__item">
+                                        <div class="header__cart__item-img"><img src="https://cf.shopee.vn/file/750a433e6af5e7709900f81fa751cd4a" alt=""></div>
+                                        <div class="header__cart__item-name text-wrap1">Apple Watch Series 7 45mm GPS Sport Band</div>
+                                        <div class="header__cart__item-price">14.000.000 <span>₫</span></div>
+                                    </div>
+                                    <div class="header__cart__item">
+                                        <div class="header__cart__item-img"><img src="https://cf.shopee.vn/file/b4d8f2c5ec5de05b98a68ba1fdc17d4c" alt=""></div>
+                                        <div class="header__cart__item-name text-wrap1">Apple Watch Series 7 45mm GPS Sport Band</div>
+                                        <div class="header__cart__item-price">990.000 <span>₫</span></div>
+                                    </div>
+                                    <div class="header__cart__item">
+                                        <div class="header__cart__item-img"><img src="https://cf.shopee.vn/file/750a433e6af5e7709900f81fa751cd4a" alt=""></div>
+                                        <div class="header__cart__item-name text-wrap1">Apple Watch Series 7 45mm GPS Sport Band</div>
+                                        <div class="header__cart__item-price">99.999.999 <span>₫</span></div>
+                                    </div>
+                                    <a name="tocart" id="tocart" class="btn btn-tocart" href="#" role="button">Đến giỏ hàng</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="header__user">
+                            <div class="header__user-ava">
+                                <img src="./assets/images/avatest2.jpg" alt="">
+                            </div>
+                            <div class="header__user-name">
+                                Minh Huy
+                            </div>
+                            <div class="header__user-moreinfo">
+                                <i class="fas fa-ellipsis-v"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="header-bottom">
+                    <div class="header__nav">
+                        <ul class="header__nav-wrapper">
+                            <li class="nav-item">
+                                <a href="">
+                                    <i class="fas fa-mobile-alt"></i>
+                                    <span>
+
+                                        Điện thoại
+                                    </span>
+                                </a>
+                                <ul class="subnav">
+                                    <h4>
+                                        Hãng sản xuất
+                                    </h4>
+                                    <li>
+                                        <a href="">Apple</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Sammsung</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Xiaomi</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a href="">
+                                    <i class="fas fa-laptop"></i>
+                                    <span>
+
+                                        Laptop
+                                    </span>
+                                </a>
+                                <ul class="subnav">
+                                    <h4>
+                                        Hãng sản xuất
+                                    </h4>
+                                    <li>
+                                        <a href="">Apple</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Sammsung</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Xiaomi</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a href="">
+                                    <i class="far fa-clock"></i>
+                                    <span>
+                                        Đồng hồ
+                                    </span>
+                                </a>
+                                <ul class="subnav">
+                                    <h4>
+                                        Hãng sản xuất
+                                    </h4>
+                                    <li>
+                                        <a href="">Apple</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Sammsung</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Xiaomi</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a href="">
+                                    <i class="fas fa-tablet-alt"></i>
+                                    <span>
+
+                                        Tablet
+                                    </span>
+                                </a>
+                                <ul class="subnav">
+                                    <h4>
+                                        Hãng sản xuất
+                                    </h4>
+                                    <li>
+                                        <a href="">Apple</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Sammsung</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Xiaomi</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a href="">
+                                    <i class="fas fa-headphones-alt"></i>
+                                    <span>
+
+                                        Âm thanh
+                                    </span>
+                                </a>
+                                <ul class="subnav">
+                                    <h4>
+                                        Hãng sản xuất
+                                    </h4>
+                                    <li>
+                                        <a href="">Apple</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Sammsung</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Xiaomi</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a href="">
+                                    <i class="fas fa-laptop-house"></i>
+                                    <span>
+
+                                        Smart home
+                                    </span>
+                                </a>
+                                <ul class="subnav">
+                                    <h4>
+                                        Hãng sản xuất
+                                    </h4>
+                                    <li>
+                                        <a href="">Apple</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Sammsung</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Xiaomi</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a href="">
+                                    <i class="far fa-keyboard"></i>
+                                    <span>
+
+                                        Phụ kiện
+                                    </span>
+                                </a>
+                                <ul class="subnav">
+                                    <h4>
+                                        Hãng sản xuất
+                                    </h4>
+                                    <li>
+                                        <a href="">Apple</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Sammsung</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Xiaomi</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a href="">
+                                    <i class="fas fa-bolt"></i>
+                                    <span>
+
+                                        Flash sale
+                                    </span>
+                                </a>
+
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- main -->
+        <main id="main">
+            <div class="scroll-top">
+                <a href="#header">
+                    <i class="fas fa-chevron-circle-up"></i>
+                </a>
+            </div>
+            <div class="scroll-call">
+                <span>
+                    Tổng Đài CSKH
+                    <br>
+                    0784508270
+                </span>
+            </div>
+            <div class="content">
+                <section class="section banner">
+                    <div class="slides">
+                        <div class="slides__leftBtn"><i class="fas fa-chevron-left"></i></div>
+                        <div class="slides__rightBtn"><i class="fas fa-chevron-right"></i></div>
+
+                        <div class="slides__slide active">
+                            <img src="./assets/images/slides/slide1.webp" alt="" class="slide-pic">
+                        </div>
+                        <div class="slides__slide ">
+                            <img src="./assets/images/slides/slide2.webp" alt="" class="slide-pic">
+                        </div>
+                        <div class="slides__slide ">
+                            <img src="./assets/images/slides/slide3.webp" alt="" class="slide-pic">
+                        </div>
+                        <div class="slides__slide ">
+                            <img src="./assets/images/slides/slide4.webp" alt="" class="slide-pic">
+                        </div>
+
+
+                        <div class="dots">
+                            <span class="active"></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="section items">
+                    <div class="section-title">
+                        <h2>Sản phẩm nổi bật</h2>
+                        <div>
+                            <a href="">xem tất cả <i class="fas fa-angle-double-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="main-carousel"
+                        data-flickity='{ "groupCells": true,"contain": true, "pageDots": false,"adaptiveHeight": true,"autoPlay": 3000 }'>
+                        <div class="carousel-cell">
+                            <div class="carousel-item">
+                                <a href="" alt="" class="carousel-item__image">
+                                    <img src="https://philong.com.vn/media/product/250-26811-3.jpg" alt="">
+                                </a>
+                                <div class="carousel-item__bot-wrapper">
+                                    <a href="" class="carousel-item__title">
+                                        <h3 class="text-wrap">
+                                            LAPTOP ASUS TUF GAMING FX516PM - HN002W
+                                        </h3>
+                                    </a href="">
+                                    <div class="carousel-item__raiting">
+                                        <div>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star-half-alt"></i>
+                                            <i class="far fa-star"></i>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item__price">
+                                        <span>
+                                            32.990.000 <span>₫</span>
+                                        </span>
+
+                                        <span>
+                                            <i class="fas fa-truck"></i>
+                                        </span>
+                                    </div>
+
+                                    <div class="carousel-item__add-to-cart">
+                                        <div class="btn btn-buy">Thêm vào giỏ</div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                        <div class="carousel-cell">
+                            <div class="carousel-item">
+                                <a href="" alt="" class="carousel-item__image">
+                                    <img src="https://philong.com.vn/media/product/250-26811-3.jpg" alt="">
+                                </a>
+                                <div class="carousel-item__bot-wrapper">
+                                    <a href="" class="carousel-item__title">
+                                        <h3 class="text-wrap">
+                                            LAPTOP ASUS TUF GAMING FX516PM - HN002W
+                                        </h3>
+                                    </a href="">
+                                    <div class="carousel-item__raiting">
+                                        <div>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star-half-alt"></i>
+                                            <i class="far fa-star"></i>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item__price">
+                                        <span>
+                                            32.990.000 <span>₫</span>
+                                        </span>
+
+                                        <span>
+                                            <i class="fas fa-truck"></i>
+                                        </span>
+                                    </div>
+
+                                    <div class="carousel-item__add-to-cart">
+                                        <div class="btn btn-buy">Thêm vào giỏ</div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                        <div class="carousel-cell">
+                            <div class="carousel-item">
+                                <a href="" alt="" class="carousel-item__image">
+                                    <img src="https://philong.com.vn/media/product/250-26811-3.jpg" alt="">
+                                </a>
+                                <div class="carousel-item__bot-wrapper">
+                                    <a href="" class="carousel-item__title">
+                                        <h3 class="text-wrap">
+                                            LAPTOP ASUS TUF GAMING FX516PM - HN002W
+                                        </h3>
+                                    </a href="">
+                                    <div class="carousel-item__raiting">
+                                        <div>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star-half-alt"></i>
+                                            <i class="far fa-star"></i>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item__price">
+                                        <span>
+                                            32.990.000 <span>₫</span>
+                                        </span>
+
+                                        <span>
+                                            <i class="fas fa-truck"></i>
+                                        </span>
+                                    </div>
+
+                                    <div class="carousel-item__add-to-cart">
+                                        <div class="btn btn-buy">Thêm vào giỏ</div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                        <div class="carousel-cell">
+                            <div class="carousel-item">
+                                <a href="" alt="" class="carousel-item__image">
+                                    <img src="https://philong.com.vn/media/product/250-26811-3.jpg" alt="">
+                                </a>
+                                <div class="carousel-item__bot-wrapper">
+                                    <a href="" class="carousel-item__title">
+                                        <h3 class="text-wrap">
+                                            LAPTOP ASUS TUF GAMING FX516PM - HN002W
+                                        </h3>
+                                    </a href="">
+                                    <div class="carousel-item__raiting">
+                                        <div>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star-half-alt"></i>
+                                            <i class="far fa-star"></i>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item__price">
+                                        <span>
+                                            32.990.000 <span>₫</span>
+                                        </span>
+
+                                        <span>
+                                            <i class="fas fa-truck"></i>
+                                        </span>
+                                    </div>
+
+                                    <div class="carousel-item__add-to-cart">
+                                        <div class="btn btn-buy">Thêm vào giỏ</div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                        <div class="carousel-cell">
+                            <div class="carousel-item">
+                                <a href="" alt="" class="carousel-item__image">
+                                    <img src="https://philong.com.vn/media/product/250-26811-3.jpg" alt="">
+                                </a>
+                                <div class="carousel-item__bot-wrapper">
+                                    <a href="" class="carousel-item__title">
+                                        <h3 class="text-wrap">
+                                            LAPTOP ASUS TUF GAMING FX516PM - HN002W
+                                        </h3>
+                                    </a href="">
+                                    <div class="carousel-item__raiting">
+                                        <div>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star-half-alt"></i>
+                                            <i class="far fa-star"></i>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item__price">
+                                        <span>
+                                            32.990.000 <span>₫</span>
+                                        </span>
+
+                                        <span>
+                                            <i class="fas fa-truck"></i>
+                                        </span>
+                                    </div>
+
+                                    <div class="carousel-item__add-to-cart">
+                                        <div class="btn btn-buy">Thêm vào giỏ</div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                        <div class="carousel-cell">
+                            <div class="carousel-item">
+                                <a href="" alt="" class="carousel-item__image">
+                                    <img src="https://philong.com.vn/media/product/250-26811-3.jpg" alt="">
+                                </a>
+                                <div class="carousel-item__bot-wrapper">
+                                    <a href="" class="carousel-item__title">
+                                        <h3 class="text-wrap">
+                                            LAPTOP ASUS TUF GAMING FX516PM - HN002W
+                                        </h3>
+                                    </a href="">
+                                    <div class="carousel-item__raiting">
+                                        <div>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star-half-alt"></i>
+                                            <i class="far fa-star"></i>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item__price">
+                                        <span>
+                                            32.990.000 <span>₫</span>
+                                        </span>
+
+                                        <span>
+                                            <i class="fas fa-truck"></i>
+                                        </span>
+                                    </div>
+
+                                    <div class="carousel-item__add-to-cart">
+                                        <div class="btn btn-buy">Thêm vào giỏ</div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                        <div class="carousel-cell">
+                            <div class="carousel-item">
+                                <a href="" alt="" class="carousel-item__image">
+                                    <img src="https://philong.com.vn/media/product/250-26811-3.jpg" alt="">
+                                </a>
+                                <div class="carousel-item__bot-wrapper">
+                                    <a href="" class="carousel-item__title">
+                                        <h3 class="text-wrap">
+                                            LAPTOP ASUS TUF GAMING FX516PM - HN002W
+                                        </h3>
+                                    </a href="">
+                                    <div class="carousel-item__raiting">
+                                        <div>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star-half-alt"></i>
+                                            <i class="far fa-star"></i>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item__price">
+                                        <span>
+                                            32.990.000 <span>₫</span>
+                                        </span>
+
+                                        <span>
+                                            <i class="fas fa-truck"></i>
+                                        </span>
+                                    </div>
+
+                                    <div class="carousel-item__add-to-cart">
+                                        <div class="btn btn-buy">Thêm vào giỏ</div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                        <div class="carousel-cell">
+                            <div class="carousel-item">
+                                <a href="" alt="" class="carousel-item__image">
+                                    <img src="https://philong.com.vn/media/product/250-26811-3.jpg" alt="">
+                                </a>
+                                <div class="carousel-item__bot-wrapper">
+                                    <a href="" class="carousel-item__title">
+                                        <h3 class="text-wrap">
+                                            LAPTOP ASUS TUF GAMING FX516PM - HN002W
+                                        </h3>
+                                    </a href="">
+                                    <div class="carousel-item__raiting">
+                                        <div>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star-half-alt"></i>
+                                            <i class="far fa-star"></i>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item__price">
+                                        <span>
+                                            32.990.000 <span>₫</span>
+                                        </span>
+
+                                        <span>
+                                            <i class="fas fa-truck"></i>
+                                        </span>
+                                    </div>
+
+                                    <div class="carousel-item__add-to-cart">
+                                        <div class="btn btn-buy">Thêm vào giỏ</div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                        <div class="carousel-cell">
+                            <div class="carousel-item">
+                                <a href="" alt="" class="carousel-item__image">
+                                    <img src="https://philong.com.vn/media/product/250-26811-3.jpg" alt="">
+                                </a>
+                                <div class="carousel-item__bot-wrapper">
+                                    <a href="" class="carousel-item__title">
+                                        <h3 class="text-wrap">
+                                            LAPTOP ASUS TUF GAMING FX516PM - HN002W
+                                        </h3>
+                                    </a href="">
+                                    <div class="carousel-item__raiting">
+                                        <div>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star-half-alt"></i>
+                                            <i class="far fa-star"></i>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item__price">
+                                        <span>
+                                            32.990.000 <span>₫</span>
+                                        </span>
+
+                                        <span>
+                                            <i class="fas fa-truck"></i>
+                                        </span>
+                                    </div>
+
+                                    <div class="carousel-item__add-to-cart">
+                                        <div class="btn btn-buy">Thêm vào giỏ</div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+
+                    </div>
+                </section>
+
+                <section class="section ad">
+                    <div>
+                        <a title="ads"
+                            href="https://www.lg.com/vn/tro-giup/bao-hanh?fbclid=IwAR2d9nPyurT1Q3bhTler2Ln7ONkmkqVHR-_k6tNPTrBP23tynFJGqm4iIMU">
+                            <img src="./assets/images/ads/ad1.jpg" alt="">
+                        </a>
+                    </div>
+                </section>
+
+                <section class="section items">
+                    <div class="section-title">
+                        <h2>Điện thoại</h2>
+                        <div>
+                            <a href="">Điện thoại theo hãng </a>
+                            <a href="">Điện thoại chơi game </a>
+                            <a href="">Phụ kiện điện thoại </a>
+                            <a href="">xem tất cả <i class="fas fa-angle-double-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="main-carousel"
+                        data-flickity='{ "groupCells": true,"contain": true, "pageDots": false,"adaptiveHeight": true,"autoPlay": 3000 }'>
+                        <div class="carousel-cell">
+                            <div class="carousel-item">
+                                <a href="" alt="" class="carousel-item__image">
+                                    <img src="https://philong.com.vn/media/product/250-26811-3.jpg" alt="">
+                                </a>
+                                <div class="carousel-item__bot-wrapper">
+                                    <a href="" class="carousel-item__title">
+                                        <h3 class="text-wrap">
+                                            LAPTOP ASUS TUF GAMING FX516PM - HN002W
+                                        </h3>
+                                    </a href="">
+                                    <div class="carousel-item__raiting">
+                                        <div>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star-half-alt"></i>
+                                            <i class="far fa-star"></i>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item__price">
+                                        <span>
+                                            32.990.000 <span>₫</span>
+                                        </span>
+
+                                        <span>
+                                            <i class="fas fa-truck"></i>
+                                        </span>
+                                    </div>
+
+                                    <div class="carousel-item__add-to-cart">
+                                        <div class="btn btn-buy">Thêm vào giỏ</div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                        <div class="carousel-cell">
+                            <div class="carousel-item">
+                                <a href="" alt="" class="carousel-item__image">
+                                    <img src="https://philong.com.vn/media/product/250-26811-3.jpg" alt="">
+                                </a>
+                                <div class="carousel-item__bot-wrapper">
+                                    <a href="" class="carousel-item__title">
+                                        <h3 class="text-wrap">
+                                            LAPTOP ASUS TUF GAMING FX516PM - HN002W
+                                        </h3>
+                                    </a href="">
+                                    <div class="carousel-item__raiting">
+                                        <div>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star-half-alt"></i>
+                                            <i class="far fa-star"></i>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item__price">
+                                        <span>
+                                            32.990.000 <span>₫</span>
+                                        </span>
+
+                                        <span>
+                                            <i class="fas fa-truck"></i>
+                                        </span>
+                                    </div>
+
+                                    <div class="carousel-item__add-to-cart">
+                                        <div class="btn btn-buy">Thêm vào giỏ</div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                        <div class="carousel-cell">
+                            <div class="carousel-item">
+                                <a href="" alt="" class="carousel-item__image">
+                                    <img src="https://philong.com.vn/media/product/250-26811-3.jpg" alt="">
+                                </a>
+                                <div class="carousel-item__bot-wrapper">
+                                    <a href="" class="carousel-item__title">
+                                        <h3 class="text-wrap">
+                                            LAPTOP ASUS TUF GAMING FX516PM - HN002W
+                                        </h3>
+                                    </a href="">
+                                    <div class="carousel-item__raiting">
+                                        <div>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star-half-alt"></i>
+                                            <i class="far fa-star"></i>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item__price">
+                                        <span>
+                                            32.990.000 <span>₫</span>
+                                        </span>
+
+                                        <span>
+                                            <i class="fas fa-truck"></i>
+                                        </span>
+                                    </div>
+
+                                    <div class="carousel-item__add-to-cart">
+                                        <div class="btn btn-buy">Thêm vào giỏ</div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                        <div class="carousel-cell">
+                            <div class="carousel-item">
+                                <a href="" alt="" class="carousel-item__image">
+                                    <img src="https://philong.com.vn/media/product/250-26811-3.jpg" alt="">
+                                </a>
+                                <div class="carousel-item__bot-wrapper">
+                                    <a href="" class="carousel-item__title">
+                                        <h3 class="text-wrap">
+                                            LAPTOP ASUS TUF GAMING FX516PM - HN002W
+                                        </h3>
+                                    </a href="">
+                                    <div class="carousel-item__raiting">
+                                        <div>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star-half-alt"></i>
+                                            <i class="far fa-star"></i>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item__price">
+                                        <span>
+                                            32.990.000 <span>₫</span>
+                                        </span>
+
+                                        <span>
+                                            <i class="fas fa-truck"></i>
+                                        </span>
+                                    </div>
+
+                                    <div class="carousel-item__add-to-cart">
+                                        <div class="btn btn-buy">Thêm vào giỏ</div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                        <div class="carousel-cell">
+                            <div class="carousel-item">
+                                <a href="" alt="" class="carousel-item__image">
+                                    <img src="https://philong.com.vn/media/product/250-26811-3.jpg" alt="">
+                                </a>
+                                <div class="carousel-item__bot-wrapper">
+                                    <a href="" class="carousel-item__title">
+                                        <h3 class="text-wrap">
+                                            LAPTOP ASUS TUF GAMING FX516PM - HN002W
+                                        </h3>
+                                    </a href="">
+                                    <div class="carousel-item__raiting">
+                                        <div>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star-half-alt"></i>
+                                            <i class="far fa-star"></i>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item__price">
+                                        <span>
+                                            32.990.000 <span>₫</span>
+                                        </span>
+
+                                        <span>
+                                            <i class="fas fa-truck"></i>
+                                        </span>
+                                    </div>
+
+                                    <div class="carousel-item__add-to-cart">
+                                        <div class="btn btn-buy">Thêm vào giỏ</div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                        <div class="carousel-cell">
+                            <div class="carousel-item">
+                                <a href="" alt="" class="carousel-item__image">
+                                    <img src="https://philong.com.vn/media/product/250-26811-3.jpg" alt="">
+                                </a>
+                                <div class="carousel-item__bot-wrapper">
+                                    <a href="" class="carousel-item__title">
+                                        <h3 class="text-wrap">
+                                            LAPTOP ASUS TUF GAMING FX516PM - HN002W
+                                        </h3>
+                                    </a href="">
+                                    <div class="carousel-item__raiting">
+                                        <div>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star-half-alt"></i>
+                                            <i class="far fa-star"></i>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item__price">
+                                        <span>
+                                            32.990.000 <span>₫</span>
+                                        </span>
+
+                                        <span>
+                                            <i class="fas fa-truck"></i>
+                                        </span>
+                                    </div>
+
+                                    <div class="carousel-item__add-to-cart">
+                                        <div class="btn btn-buy">Thêm vào giỏ</div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                        <div class="carousel-cell">
+                            <div class="carousel-item">
+                                <a href="" alt="" class="carousel-item__image">
+                                    <img src="https://philong.com.vn/media/product/250-26811-3.jpg" alt="">
+                                </a>
+                                <div class="carousel-item__bot-wrapper">
+                                    <a href="" class="carousel-item__title">
+                                        <h3 class="text-wrap">
+                                            LAPTOP ASUS TUF GAMING FX516PM - HN002W
+                                        </h3>
+                                    </a href="">
+                                    <div class="carousel-item__raiting">
+                                        <div>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star-half-alt"></i>
+                                            <i class="far fa-star"></i>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item__price">
+                                        <span>
+                                            32.990.000 <span>₫</span>
+                                        </span>
+
+                                        <span>
+                                            <i class="fas fa-truck"></i>
+                                        </span>
+                                    </div>
+
+                                    <div class="carousel-item__add-to-cart">
+                                        <div class="btn btn-buy">Thêm vào giỏ</div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                        <div class="carousel-cell">
+                            <div class="carousel-item">
+                                <a href="" alt="" class="carousel-item__image">
+                                    <img src="https://philong.com.vn/media/product/250-26811-3.jpg" alt="">
+                                </a>
+                                <div class="carousel-item__bot-wrapper">
+                                    <a href="" class="carousel-item__title">
+                                        <h3 class="text-wrap">
+                                            LAPTOP ASUS TUF GAMING FX516PM - HN002W
+                                        </h3>
+                                    </a href="">
+                                    <div class="carousel-item__raiting">
+                                        <div>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star-half-alt"></i>
+                                            <i class="far fa-star"></i>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item__price">
+                                        <span>
+                                            32.990.000 <span>₫</span>
+                                        </span>
+
+                                        <span>
+                                            <i class="fas fa-truck"></i>
+                                        </span>
+                                    </div>
+
+                                    <div class="carousel-item__add-to-cart">
+                                        <div class="btn btn-buy">Thêm vào giỏ</div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                        <div class="carousel-cell">
+                            <div class="carousel-item">
+                                <a href="" alt="" class="carousel-item__image">
+                                    <img src="https://philong.com.vn/media/product/250-26811-3.jpg" alt="">
+                                </a>
+                                <div class="carousel-item__bot-wrapper">
+                                    <a href="" class="carousel-item__title">
+                                        <h3 class="text-wrap">
+                                            LAPTOP ASUS TUF GAMING FX516PM - HN002W
+                                        </h3>
+                                    </a href="">
+                                    <div class="carousel-item__raiting">
+                                        <div>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star-half-alt"></i>
+                                            <i class="far fa-star"></i>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item__price">
+                                        <span>
+                                            32.990.000 <span>₫</span>
+                                        </span>
+
+                                        <span>
+                                            <i class="fas fa-truck"></i>
+                                        </span>
+                                    </div>
+
+                                    <div class="carousel-item__add-to-cart">
+                                        <div class="btn btn-buy">Thêm vào giỏ</div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+
+                    </div>
+                </section>
+                <section class="section items">
+                    <div class="section-title">
+                        <h2>Máy tính sách tay</h2>
+                        <div>
+                            <a href="">xem tất cả <i class="fas fa-angle-double-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="main-carousel"
+                        data-flickity='{ "groupCells": true,"contain": true, "pageDots": false,"adaptiveHeight": true,"autoPlay": 3000 }'>
+                        <div class="carousel-cell">
+                            <div class="carousel-item">
+                                <a href="" alt="" class="carousel-item__image">
+                                    <img src="https://philong.com.vn/media/product/250-26811-3.jpg" alt="">
+                                </a>
+                                <div class="carousel-item__bot-wrapper">
+                                    <a href="" class="carousel-item__title">
+                                        <h3 class="text-wrap">
+                                            LAPTOP ASUS TUF GAMING FX516PM - HN002W
+                                        </h3>
+                                    </a href="">
+                                    <div class="carousel-item__raiting">
+                                        <div>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star-half-alt"></i>
+                                            <i class="far fa-star"></i>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item__price">
+                                        <span>
+                                            32.990.000 <span>₫</span>
+                                        </span>
+
+                                        <span>
+                                            <i class="fas fa-truck"></i>
+                                        </span>
+                                    </div>
+
+                                    <div class="carousel-item__add-to-cart">
+                                        <div class="btn btn-buy">Thêm vào giỏ</div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                        <div class="carousel-cell">
+                            <div class="carousel-item">
+                                <a href="" alt="" class="carousel-item__image">
+                                    <img src="https://philong.com.vn/media/product/250-26811-3.jpg" alt="">
+                                </a>
+                                <div class="carousel-item__bot-wrapper">
+                                    <a href="" class="carousel-item__title">
+                                        <h3 class="text-wrap">
+                                            LAPTOP ASUS TUF GAMING FX516PM - HN002W
+                                        </h3>
+                                    </a href="">
+                                    <div class="carousel-item__raiting">
+                                        <div>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star-half-alt"></i>
+                                            <i class="far fa-star"></i>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item__price">
+                                        <span>
+                                            32.990.000 <span>₫</span>
+                                        </span>
+
+                                        <span>
+                                            <i class="fas fa-truck"></i>
+                                        </span>
+                                    </div>
+
+                                    <div class="carousel-item__add-to-cart">
+                                        <div class="btn btn-buy">Thêm vào giỏ</div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                        <div class="carousel-cell">
+                            <div class="carousel-item">
+                                <a href="" alt="" class="carousel-item__image">
+                                    <img src="https://philong.com.vn/media/product/250-26811-3.jpg" alt="">
+                                </a>
+                                <div class="carousel-item__bot-wrapper">
+                                    <a href="" class="carousel-item__title">
+                                        <h3 class="text-wrap">
+                                            LAPTOP ASUS TUF GAMING FX516PM - HN002W
+                                        </h3>
+                                    </a href="">
+                                    <div class="carousel-item__raiting">
+                                        <div>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star-half-alt"></i>
+                                            <i class="far fa-star"></i>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item__price">
+                                        <span>
+                                            32.990.000 <span>₫</span>
+                                        </span>
+
+                                        <span>
+                                            <i class="fas fa-truck"></i>
+                                        </span>
+                                    </div>
+
+                                    <div class="carousel-item__add-to-cart">
+                                        <div class="btn btn-buy">Thêm vào giỏ</div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                        <div class="carousel-cell">
+                            <div class="carousel-item">
+                                <a href="" alt="" class="carousel-item__image">
+                                    <img src="https://philong.com.vn/media/product/250-26811-3.jpg" alt="">
+                                </a>
+                                <div class="carousel-item__bot-wrapper">
+                                    <a href="" class="carousel-item__title">
+                                        <h3 class="text-wrap">
+                                            LAPTOP ASUS TUF GAMING FX516PM - HN002W
+                                        </h3>
+                                    </a href="">
+                                    <div class="carousel-item__raiting">
+                                        <div>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star-half-alt"></i>
+                                            <i class="far fa-star"></i>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item__price">
+                                        <span>
+                                            32.990.000 <span>₫</span>
+                                        </span>
+
+                                        <span>
+                                            <i class="fas fa-truck"></i>
+                                        </span>
+                                    </div>
+
+                                    <div class="carousel-item__add-to-cart">
+                                        <div class="btn btn-buy">Thêm vào giỏ</div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                        <div class="carousel-cell">
+                            <div class="carousel-item">
+                                <a href="" alt="" class="carousel-item__image">
+                                    <img src="https://philong.com.vn/media/product/250-26811-3.jpg" alt="">
+                                </a>
+                                <div class="carousel-item__bot-wrapper">
+                                    <a href="" class="carousel-item__title">
+                                        <h3 class="text-wrap">
+                                            LAPTOP ASUS TUF GAMING FX516PM - HN002W
+                                        </h3>
+                                    </a href="">
+                                    <div class="carousel-item__raiting">
+                                        <div>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star-half-alt"></i>
+                                            <i class="far fa-star"></i>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item__price">
+                                        <span>
+                                            32.990.000 <span>₫</span>
+                                        </span>
+
+                                        <span>
+                                            <i class="fas fa-truck"></i>
+                                        </span>
+                                    </div>
+
+                                    <div class="carousel-item__add-to-cart">
+                                        <div class="btn btn-buy">Thêm vào giỏ</div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                        <div class="carousel-cell">
+                            <div class="carousel-item">
+                                <a href="" alt="" class="carousel-item__image">
+                                    <img src="https://philong.com.vn/media/product/250-26811-3.jpg" alt="">
+                                </a>
+                                <div class="carousel-item__bot-wrapper">
+                                    <a href="" class="carousel-item__title">
+                                        <h3 class="text-wrap">
+                                            LAPTOP ASUS TUF GAMING FX516PM - HN002W
+                                        </h3>
+                                    </a href="">
+                                    <div class="carousel-item__raiting">
+                                        <div>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star-half-alt"></i>
+                                            <i class="far fa-star"></i>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item__price">
+                                        <span>
+                                            32.990.000 <span>₫</span>
+                                        </span>
+
+                                        <span>
+                                            <i class="fas fa-truck"></i>
+                                        </span>
+                                    </div>
+
+                                    <div class="carousel-item__add-to-cart">
+                                        <div class="btn btn-buy">Thêm vào giỏ</div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                        <div class="carousel-cell">
+                            <div class="carousel-item">
+                                <a href="" alt="" class="carousel-item__image">
+                                    <img src="https://philong.com.vn/media/product/250-26811-3.jpg" alt="">
+                                </a>
+                                <div class="carousel-item__bot-wrapper">
+                                    <a href="" class="carousel-item__title">
+                                        <h3 class="text-wrap">
+                                            LAPTOP ASUS TUF GAMING FX516PM - HN002W
+                                        </h3>
+                                    </a href="">
+                                    <div class="carousel-item__raiting">
+                                        <div>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star-half-alt"></i>
+                                            <i class="far fa-star"></i>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item__price">
+                                        <span>
+                                            32.990.000 <span>₫</span>
+                                        </span>
+
+                                        <span>
+                                            <i class="fas fa-truck"></i>
+                                        </span>
+                                    </div>
+
+                                    <div class="carousel-item__add-to-cart">
+                                        <div class="btn btn-buy">Thêm vào giỏ</div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                        <div class="carousel-cell">
+                            <div class="carousel-item">
+                                <a href="" alt="" class="carousel-item__image">
+                                    <img src="https://philong.com.vn/media/product/250-26811-3.jpg" alt="">
+                                </a>
+                                <div class="carousel-item__bot-wrapper">
+                                    <a href="" class="carousel-item__title">
+                                        <h3 class="text-wrap">
+                                            LAPTOP ASUS TUF GAMING FX516PM - HN002W
+                                        </h3>
+                                    </a href="">
+                                    <div class="carousel-item__raiting">
+                                        <div>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star-half-alt"></i>
+                                            <i class="far fa-star"></i>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item__price">
+                                        <span>
+                                            32.990.000 <span>₫</span>
+                                        </span>
+
+                                        <span>
+                                            <i class="fas fa-truck"></i>
+                                        </span>
+                                    </div>
+
+                                    <div class="carousel-item__add-to-cart">
+                                        <div class="btn btn-buy">Thêm vào giỏ</div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                        <div class="carousel-cell">
+                            <div class="carousel-item">
+                                <a href="" alt="" class="carousel-item__image">
+                                    <img src="https://philong.com.vn/media/product/250-26811-3.jpg" alt="">
+                                </a>
+                                <div class="carousel-item__bot-wrapper">
+                                    <a href="" class="carousel-item__title">
+                                        <h3 class="text-wrap">
+                                            LAPTOP ASUS TUF GAMING FX516PM - HN002W
+                                        </h3>
+                                    </a href="">
+                                    <div class="carousel-item__raiting">
+                                        <div>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star-half-alt"></i>
+                                            <i class="far fa-star"></i>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item__price">
+                                        <span>
+                                            32.990.000 <span>₫</span>
+                                        </span>
+
+                                        <span>
+                                            <i class="fas fa-truck"></i>
+                                        </span>
+                                    </div>
+
+                                    <div class="carousel-item__add-to-cart">
+                                        <div class="btn btn-buy">Thêm vào giỏ</div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+
+                    </div>
+                </section>
+                <section class="section items">
+                    <div class="section-title">
+                        <h2>loa, tai nghe, audio</h2>
+                        <div>
+                            <a href="">xem tất cả <i class="fas fa-angle-double-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="main-carousel"
+                        data-flickity='{ "groupCells": true,"contain": true, "pageDots": false,"adaptiveHeight": true,"autoPlay": 3000 }'>
+                        <div class="carousel-cell">
+                            <div class="carousel-item">
+                                <a href="" alt="" class="carousel-item__image">
+                                    <img src="https://philong.com.vn/media/product/250-26811-3.jpg" alt="">
+                                </a>
+                                <div class="carousel-item__bot-wrapper">
+                                    <a href="" class="carousel-item__title">
+                                        <h3 class="text-wrap">
+                                            LAPTOP ASUS TUF GAMING FX516PM - HN002W
+                                        </h3>
+                                    </a href="">
+                                    <div class="carousel-item__raiting">
+                                        <div>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star-half-alt"></i>
+                                            <i class="far fa-star"></i>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item__price">
+                                        <span>
+                                            32.990.000 <span>₫</span>
+                                        </span>
+
+                                        <span>
+                                            <i class="fas fa-truck"></i>
+                                        </span>
+                                    </div>
+
+                                    <div class="carousel-item__add-to-cart">
+                                        <div class="btn btn-buy">Thêm vào giỏ</div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                        <div class="carousel-cell">
+                            <div class="carousel-item">
+                                <a href="" alt="" class="carousel-item__image">
+                                    <img src="https://philong.com.vn/media/product/250-26811-3.jpg" alt="">
+                                </a>
+                                <div class="carousel-item__bot-wrapper">
+                                    <a href="" class="carousel-item__title">
+                                        <h3 class="text-wrap">
+                                            LAPTOP ASUS TUF GAMING FX516PM - HN002W
+                                        </h3>
+                                    </a href="">
+                                    <div class="carousel-item__raiting">
+                                        <div>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star-half-alt"></i>
+                                            <i class="far fa-star"></i>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item__price">
+                                        <span>
+                                            32.990.000 <span>₫</span>
+                                        </span>
+
+                                        <span>
+                                            <i class="fas fa-truck"></i>
+                                        </span>
+                                    </div>
+
+                                    <div class="carousel-item__add-to-cart">
+                                        <div class="btn btn-buy">Thêm vào giỏ</div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                        <div class="carousel-cell">
+                            <div class="carousel-item">
+                                <a href="" alt="" class="carousel-item__image">
+                                    <img src="https://philong.com.vn/media/product/250-26811-3.jpg" alt="">
+                                </a>
+                                <div class="carousel-item__bot-wrapper">
+                                    <a href="" class="carousel-item__title">
+                                        <h3 class="text-wrap">
+                                            LAPTOP ASUS TUF GAMING FX516PM - HN002W
+                                        </h3>
+                                    </a href="">
+                                    <div class="carousel-item__raiting">
+                                        <div>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star-half-alt"></i>
+                                            <i class="far fa-star"></i>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item__price">
+                                        <span>
+                                            32.990.000 <span>₫</span>
+                                        </span>
+
+                                        <span>
+                                            <i class="fas fa-truck"></i>
+                                        </span>
+                                    </div>
+
+                                    <div class="carousel-item__add-to-cart">
+                                        <div class="btn btn-buy">Thêm vào giỏ</div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                        <div class="carousel-cell">
+                            <div class="carousel-item">
+                                <a href="" alt="" class="carousel-item__image">
+                                    <img src="https://philong.com.vn/media/product/250-26811-3.jpg" alt="">
+                                </a>
+                                <div class="carousel-item__bot-wrapper">
+                                    <a href="" class="carousel-item__title">
+                                        <h3 class="text-wrap">
+                                            LAPTOP ASUS TUF GAMING FX516PM - HN002W
+                                        </h3>
+                                    </a href="">
+                                    <div class="carousel-item__raiting">
+                                        <div>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star-half-alt"></i>
+                                            <i class="far fa-star"></i>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item__price">
+                                        <span>
+                                            32.990.000 <span>₫</span>
+                                        </span>
+
+                                        <span>
+                                            <i class="fas fa-truck"></i>
+                                        </span>
+                                    </div>
+
+                                    <div class="carousel-item__add-to-cart">
+                                        <div class="btn btn-buy">Thêm vào giỏ</div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                        <div class="carousel-cell">
+                            <div class="carousel-item">
+                                <a href="" alt="" class="carousel-item__image">
+                                    <img src="https://philong.com.vn/media/product/250-26811-3.jpg" alt="">
+                                </a>
+                                <div class="carousel-item__bot-wrapper">
+                                    <a href="" class="carousel-item__title">
+                                        <h3 class="text-wrap">
+                                            LAPTOP ASUS TUF GAMING FX516PM - HN002W
+                                        </h3>
+                                    </a href="">
+                                    <div class="carousel-item__raiting">
+                                        <div>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star-half-alt"></i>
+                                            <i class="far fa-star"></i>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item__price">
+                                        <span>
+                                            32.990.000 <span>₫</span>
+                                        </span>
+
+                                        <span>
+                                            <i class="fas fa-truck"></i>
+                                        </span>
+                                    </div>
+
+                                    <div class="carousel-item__add-to-cart">
+                                        <div class="btn btn-buy">Thêm vào giỏ</div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                        <div class="carousel-cell">
+                            <div class="carousel-item">
+                                <a href="" alt="" class="carousel-item__image">
+                                    <img src="https://philong.com.vn/media/product/250-26811-3.jpg" alt="">
+                                </a>
+                                <div class="carousel-item__bot-wrapper">
+                                    <a href="" class="carousel-item__title">
+                                        <h3 class="text-wrap">
+                                            LAPTOP ASUS TUF GAMING FX516PM - HN002W
+                                        </h3>
+                                    </a href="">
+                                    <div class="carousel-item__raiting">
+                                        <div>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star-half-alt"></i>
+                                            <i class="far fa-star"></i>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item__price">
+                                        <span>
+                                            32.990.000 <span>₫</span>
+                                        </span>
+
+                                        <span>
+                                            <i class="fas fa-truck"></i>
+                                        </span>
+                                    </div>
+
+                                    <div class="carousel-item__add-to-cart">
+                                        <div class="btn btn-buy">Thêm vào giỏ</div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                        <div class="carousel-cell">
+                            <div class="carousel-item">
+                                <a href="" alt="" class="carousel-item__image">
+                                    <img src="https://philong.com.vn/media/product/250-26811-3.jpg" alt="">
+                                </a>
+                                <div class="carousel-item__bot-wrapper">
+                                    <a href="" class="carousel-item__title">
+                                        <h3 class="text-wrap">
+                                            LAPTOP ASUS TUF GAMING FX516PM - HN002W
+                                        </h3>
+                                    </a href="">
+                                    <div class="carousel-item__raiting">
+                                        <div>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star-half-alt"></i>
+                                            <i class="far fa-star"></i>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item__price">
+                                        <span>
+                                            32.990.000 <span>₫</span>
+                                        </span>
+
+                                        <span>
+                                            <i class="fas fa-truck"></i>
+                                        </span>
+                                    </div>
+
+                                    <div class="carousel-item__add-to-cart">
+                                        <div class="btn btn-buy">Thêm vào giỏ</div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                        <div class="carousel-cell">
+                            <div class="carousel-item">
+                                <a href="" alt="" class="carousel-item__image">
+                                    <img src="https://philong.com.vn/media/product/250-26811-3.jpg" alt="">
+                                </a>
+                                <div class="carousel-item__bot-wrapper">
+                                    <a href="" class="carousel-item__title">
+                                        <h3 class="text-wrap">
+                                            LAPTOP ASUS TUF GAMING FX516PM - HN002W
+                                        </h3>
+                                    </a href="">
+                                    <div class="carousel-item__raiting">
+                                        <div>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star-half-alt"></i>
+                                            <i class="far fa-star"></i>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item__price">
+                                        <span>
+                                            32.990.000 <span>₫</span>
+                                        </span>
+
+                                        <span>
+                                            <i class="fas fa-truck"></i>
+                                        </span>
+                                    </div>
+
+                                    <div class="carousel-item__add-to-cart">
+                                        <div class="btn btn-buy">Thêm vào giỏ</div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                        <div class="carousel-cell">
+                            <div class="carousel-item">
+                                <a href="" alt="" class="carousel-item__image">
+                                    <img src="https://philong.com.vn/media/product/250-26811-3.jpg" alt="">
+                                </a>
+                                <div class="carousel-item__bot-wrapper">
+                                    <a href="" class="carousel-item__title">
+                                        <h3 class="text-wrap">
+                                            LAPTOP ASUS TUF GAMING FX516PM - HN002W
+                                        </h3>
+                                    </a href="">
+                                    <div class="carousel-item__raiting">
+                                        <div>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star-half-alt"></i>
+                                            <i class="far fa-star"></i>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item__price">
+                                        <span>
+                                            32.990.000 <span>₫</span>
+                                        </span>
+
+                                        <span>
+                                            <i class="fas fa-truck"></i>
+                                        </span>
+                                    </div>
+
+                                    <div class="carousel-item__add-to-cart">
+                                        <div class="btn btn-buy">Thêm vào giỏ</div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+
+                    </div>
+                </section>
+
+            </div>
+        </main>
+        <!-- footer -->
+        <footer id="footer">
+            <div class="footer-wrapper">
+                <div class="footer-top">
+                    <a href="">
+
+                        <div class="footer-top__item">
+                            <div class="footer-top__item-icon">
+                                <img src="./assets/images/footerimg/verify.png" alt="">
+                            </div>
+                            <div class="footer-top__item-title">
+                                <h4>Chính hãng</h4>
+                                <span>Sản phẩm chính hãng</span>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="">
+
+                        <div class="footer-top__item">
+                            <div class="footer-top__item-icon">
+                                <img src="./assets/images/footerimg/truck.png" alt="">
+                            </div>
+                            <div class="footer-top__item-title">
+                                <h4>Chính hãng</h4>
+                                <span>Sản phẩm chính hãng</span>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="">
+
+                        <div class="footer-top__item">
+                            <div class="footer-top__item-icon">
+                                <img src="./assets/images/footerimg/box.png" alt="">
+                            </div>
+                            <div class="footer-top__item-title">
+                                <h4>Chính hãng</h4>
+                                <span>Sản phẩm chính hãng</span>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="">
+
+                        <div class="footer-top__item">
+                            <div class="footer-top__item-icon">
+                                <img src="./assets/images/footerimg/info-round-button.png" alt="">
+                            </div>
+                            <div class="footer-top__item-title">
+                                <h4>Chính hãng</h4>
+                                <span>Sản phẩm chính hãng</span>
+                            </div>
+                        </div>
+                    </a>
+
+                </div>
+                <div class="footer-midle">
+                    <div class="footer-midle__item">
+                        <div class="footer-midle__item-title">
+                            MONA VIETNAM
+                        </div>
+                        <div class="footer-midle__item-content">
+                            <ul>
+                                <li><a href="">Giới thiệu</a></li>
+                                <li><a href="">Khách hàng thân thiết</a> </li>
+                                <li><a href="">Chính sách bảo hành</a> </li>
+                                <li><a href="">Hướng dẫn mua hàng</a> </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer-midle__item">
+                        <div class="footer-midle__item-title">
+                            liên hệ
+                        </div>
+                        <div class="footer-midle__item-content">
+                            <ul>
+                                <li><a href="">Gọi điện mua hàng : <strong>1900 636 648</strong>  (8h - 22h)</a></li>
+                                <li><a href="">Gọi điện khiếu nại : <strong>1900 636 648</strong>  (8h - 22h)</a> </li>
+                                <li><a href="">Gọi điện trả hàng :  <strong>1900 636 648</strong>  (8h - 22h)</a> </li>
+                                <li><a href="">Gọi điện bảo hành :  <strong>1900 636 648</strong>  (8h - 22h)</a> </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer-midle__item">
+                        <div class="footer-midle__item-title">
+                            HỆ THỐNG SHOWROOM
+                        </div>
+                        <div class="footer-midle__item-content">
+                            <ul>
+                                <li><a href="">Chi nhánh 1 : Lý Thường Kiệt</a></li>
+                                <li><a href="">Chi nhánh 2 : Nguyễn Thị Minh Khai</a> </li>
+                                <li><a href="">Chi nhánh 2 : Nguyễn Thị Minh Khai</a> </li>
+                                <li><a href="">Chi nhánh 2 : Nguyễn Thị Minh Khai</a> </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer-midle__item">
+                        <div class="footer-midle__item-title">
+                            ĐƯỢC CHỨNG NHẬN
+                        </div>
+                        <div class="footer-midle__item-content">
+                            <ul>
+                                <li><a href="">Giới thiệu</a></li>
+                                <li><a href="">Khách hàng thân thiết</a> </li>
+                                <li><a href="">Chính sách bảo hành</a> </li>
+                                <li><a href="">Hướng dẫn mua hàng</a> </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <div class="footer-bottom__title">Bản quyền © 2017 bởi MONA VIET NAM</div>
+                    <div class="footer-bottom__content">
+                        Công ty Cổ Phần MONA Việt Nam Giấy phép kinh doanh số 0107875xxx do sở kế hoạch và đầu tư thành
+                        phố Hồ Chí Minh cấp ngày 06/06/2016
+                        <br>
+                        Văn phòng HCM: 319 - C16 Lý Thường Kiệt, phường 15, quận 11, TP. HCM
+                        <br>
+                        Hotline :1900 636 648 | Email: mon@mona.media
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <!-- js -->
+    <script src="./assets/js/index.js"></script>
+    <!-- slide js -->
+    <script src="./assets/js/slides.js"></script>
+    <!-- flickity js -->
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+</body>
+
+</html>
