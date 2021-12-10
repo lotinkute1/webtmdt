@@ -10,7 +10,7 @@ function hideElement(){
     if(window.pageYOffset >= 175) header.classList.add("hidden-header");
     else header.classList.remove("hidden-header")
 
-    console.log(window.pageYOffset );
+    
     
 };
 hideElement();
