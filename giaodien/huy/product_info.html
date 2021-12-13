@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Web home</title>
+    <title>Product info</title>
     <!-- flickity css -->
     <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
     <!-- css -->
@@ -325,7 +325,7 @@
                     <!-- 60% -->
                     <div class="product-info__right">
                         <div class="product-info__title">
-                            <h2>Apple MacBook Pro (2020) M1 Chip, 13.3 inch, 8GB, 512GB SSD</h2>
+                            <h1>Apple MacBook Pro (2020) M1 Chip, 13.3 inch, 8GB, 512GB SSD</h1>
                         </div>
                         <div class="product-info__rating">
                             <div class="raiting-starts">
@@ -350,15 +350,17 @@
                         <div class="product-info__product-options">
                             <div class="color-options">
                                 <div>Color</div>
-                                <input type="button" value="Silver" class="btn btn-option">
-                                <input type="button" value="black" class="btn btn-option">
+                                <div class="color-wrapper">
+                                    <input type="button" value="Silver" class="btn btn-option">
+                                    <input type="button" value="black" class="btn btn-option">
+                                </div>
                             </div>
                             <div class="quantily-options">
                                 <div>Số lượng</div>
-                                <div class="quantily-box">
-                                    <input type="button" value="-" class="btn btn-option">
-                                    <input type="text" value="0">
-                                    <input type="button" value="+" class="btn btn-option">
+                                <div class="quantily-wrapper">
+                                    <input type="button" value="-" name="decre" class="btn btn-option">
+                                    <input type="text" value="0" class="quantily-options__number" placeholder="0">
+                                    <input type="button" value="+" name="incre" class="btn btn-option">
                                 </div>
                             </div>
                         </div>
@@ -370,12 +372,181 @@
                 </section>
                 <!-- thông tin shop -->
                 <section class="section shop-info">
-                    shop info
+                    <div class="shop-info__left-content">
+                        <div class="shop-info__ava">
+                            <a href="">
+
+                                <img src="./assets/images/shopavatest.jfif" alt="">
+                            </a>
+                        </div>
+                        <div class="shop-info__info">
+                            <div class="shop-info__name">apple_flagship_store</div>
+                            <div>
+
+                                <input type="button" value="Chat ngay" class="btn btn-contract">
+                                <input type="button" value="Xem shope" class="btn btn-contract">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="shop-info__right-content">
+                        <div class="shop-info__raiting"><span>Đánh giá</span> 22.000</div>
+                        <div class="shop-info__join-date">3 <span>Năm trước</span> </div>
+                        <div class="shop-info__products">173 <span>Sản phẩm</span></div>
+                        <div class="shop-info__followers">333 <span>Người theo dõi</span></div>
+                    </div>
+                </section>
+                <section class="section product-more-info">
+                    <div class="product-more-info__top">
+                        <h2 class="product-more-info__top__title">
+                            chi tiết sản phẩm
+                        </h2>
+                        <div class="product-more-info__top__category">
+                            <div class="product-more-info__top__category__title">Danh Mục</div>
+                            <div class="product-more-info__top__category__wrapper">
+                                <div>shopee</div>
+                                <div>Computer & Accessories</div>
+                                <div>Laptops</div>
+                            </div>
+                        </div>
+                        <div class="product-more-info__top__info">
+                            <div>Thương hiệu</div>
+                            <div>Apple</div>
+                        </div>
+                        <div class="product-more-info__top__info">
+                            <div>Hạn bảo hành</div>
+                            <div>12 tháng</div>
+                        </div>
+                        <div class="product-more-info__top__info">
+                            <div>Loại bảo hành</div>
+                            <div>bảo hành nhà sản xuất</div>
+                        </div>
+
+                    </div>
+                    <div class="product-more-info__bottom">
+                        <h2 class="product-more-info__bottom__title">
+                            mô tả sản phẩm
+                        </h2>
+
+                        <div class="product-more-info__bottom__content">
+                            MacBook Pro (M1, 2020)
+                            <br>
+                            MÔ TẢ SẢN PHẨM
+                            <br>
+                            Macbook Pro 13 inch thay đổi ngoạn mục nhờ chip Apple M1, với sức mạnh xử lý tăng thêm đến
+                            2.8x, tốc độ xử lý đồ họa nhanh hơn 5x. Và thời lượng pin lên đến 20 giờ – thời lượng pin
+                            lâu nhất trong các dòng máy tính Mac từ trước đến nay.
+                            <br>
+                            Để bạn có thể tiến xa trong công việc, dù đi bất kỳ nơi đâu.
+                            <br>
+                            Tính năng nổi bật
+                            <br>
+                            • Chip M1 do Apple thiết kế tạo ra một cú nhảy vọt về hiệu năng máy học, CPU và GPU
+                            <br>
+                            • Làm được nhiều việc hơn với thời lượng pin lên đến 20 giờ, thời lượng pin lâu nhất trong
+                            các dòng máy tính Mac
+                            từ trước đến nay.
+                            <br>
+                            • CPU 8 lõi cho hiệu năng nhanh hơn đến 2.8x, xử lý các luồng công việc nhanh hơn bao giờ
+                            hết1
+                            <br>
+                            • GPU 8 lõi với tốc độ xử lý đồ họa nhanh gấp 5x cho các ứng dụng và game có đồ họa khủng1
+                            <br>
+                            • Neural Engine 16 lõi cho công nghệ máy học hiện đại
+                        </div>
+
+                    </div>
+                </section>
+                <!-- comments -->
+                <section class="section comments">
+                    <div class="comments__title">
+                        Bình luận
+                    </div>
+                    <!-- comment -->
+                    <div class="comments__comment">
+                        <div class="comment__ava">
+                            <img src="./assets/images/avatest.jfif" alt="" srcset="">
+                        </div>
+                        <div class="comment__main">
+                            <div class="comment__name">Huydeptrai1</div>
+                            <div class="raiting-starts">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                            <div class="comment__content">hàng dùng ok, chất lượng tốt, chơi pikachu mượt nhưng có một
+                                điểm trừ là hệ điều hành lại là MacOS tôi thích Window hơn -.-</div>
+                            <div class="comment__time">12-12-2021 10:39</div>
+                            <div class="comment__actions">
+                                <div class="btn btn-like">
+                                    <i class="fas fa-thumbs-up"></i>
+                                </div>
+                                <div class="comment__actions__like-count">
+                                    0
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- comment -->
+                    <div class="comments__comment">
+                        <div class="comment__ava">
+                            <img src="./assets/images/avatest.jfif" alt="" srcset="">
+                        </div>
+                        <div class="comment__main">
+                            <div class="comment__name">Huydeptrai2</div>
+                            <div class="raiting-starts">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                            <div class="comment__content">hàng dùng ok, chất lượng tốt, chơi pikachu mượt nhưng có một
+                                điểm trừ là hệ điều hành lại là MacOS tôi thích Window hơn -.-</div>
+                            <div class="comment__time">12-12-2021 10:39</div>
+                            <div class="comment__actions">
+                                <div class="btn btn-like">
+                                    <i class="fas fa-thumbs-up"></i>
+                                </div>
+                                <div class="comment__actions__like-count">
+                                    0
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- comment -->
+                    <div class="comments__comment">
+                        <div class="comment__ava">
+                            <img src="./assets/images/avatest.jfif" alt="" srcset="">
+                        </div>
+                        <div class="comment__main">
+                            <div class="comment__name">Huydeptrai3</div>
+                            <div class="raiting-starts">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                            <div class="comment__content">hàng dùng ok, chất lượng tốt, chơi pikachu mượt nhưng có một
+                                điểm trừ là hệ điều hành lại là MacOS tôi thích Window hơn -.-</div>
+                            <div class="comment__time">12-12-2021 10:39</div>
+                            <div class="comment__actions">
+                                <div class="btn btn-like">
+                                    <i class="fas fa-thumbs-up"></i>
+                                </div>
+                                <div class="comment__actions__like-count">
+                                    0
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </section>
                 <!-- sản phẩm liên quan -->
                 <section class="section items">
                     <div class="section-title">
-                        <h2>Sản phẩm nổi bật</h2>
+                        <h2>Sản phẩm liên quan</h2>
                         <div>
                             <a href="">xem tất cả <i class="fas fa-angle-double-right"></i></a>
                         </div>
@@ -394,7 +565,7 @@
                                         </h3>
                                     </a href="">
                                     <div class="carousel-item__raiting">
-                                        <div>
+                                        <div class="raiting-starts">
                                             <i class="fas fa-star"></i>
                                             <i class="fas fa-star"></i>
                                             <i class="fas fa-star"></i>
@@ -432,7 +603,7 @@
                                         </h3>
                                     </a>
                                     <div class="carousel-item__raiting">
-                                        <div>
+                                        <div class="raiting-starts">
                                             <i class="fas fa-star"></i>
                                             <i class="fas fa-star"></i>
                                             <i class="fas fa-star"></i>
@@ -470,7 +641,7 @@
                                         </h3>
                                     </a href="">
                                     <div class="carousel-item__raiting">
-                                        <div>
+                                        <div class="raiting-starts">
                                             <i class="fas fa-star"></i>
                                             <i class="fas fa-star"></i>
                                             <i class="fas fa-star"></i>
@@ -508,7 +679,7 @@
                                         </h3>
                                     </a href="">
                                     <div class="carousel-item__raiting">
-                                        <div>
+                                        <div class="raiting-starts">
                                             <i class="fas fa-star"></i>
                                             <i class="fas fa-star"></i>
                                             <i class="fas fa-star"></i>
@@ -546,7 +717,7 @@
                                         </h3>
                                     </a href="">
                                     <div class="carousel-item__raiting">
-                                        <div>
+                                        <div class="raiting-starts">
                                             <i class="fas fa-star"></i>
                                             <i class="fas fa-star"></i>
                                             <i class="fas fa-star"></i>
@@ -584,7 +755,7 @@
                                         </h3>
                                     </a href="">
                                     <div class="carousel-item__raiting">
-                                        <div>
+                                        <div class="raiting-starts">
                                             <i class="fas fa-star"></i>
                                             <i class="fas fa-star"></i>
                                             <i class="fas fa-star"></i>
@@ -622,7 +793,7 @@
                                         </h3>
                                     </a href="">
                                     <div class="carousel-item__raiting">
-                                        <div>
+                                        <div class="raiting-starts">
                                             <i class="fas fa-star"></i>
                                             <i class="fas fa-star"></i>
                                             <i class="fas fa-star"></i>
@@ -660,7 +831,7 @@
                                         </h3>
                                     </a href="">
                                     <div class="carousel-item__raiting">
-                                        <div>
+                                        <div class="raiting-starts">
                                             <i class="fas fa-star"></i>
                                             <i class="fas fa-star"></i>
                                             <i class="fas fa-star"></i>
@@ -698,7 +869,7 @@
                                         </h3>
                                     </a href="">
                                     <div class="carousel-item__raiting">
-                                        <div>
+                                        <div class="raiting-starts">
                                             <i class="fas fa-star"></i>
                                             <i class="fas fa-star"></i>
                                             <i class="fas fa-star"></i>
