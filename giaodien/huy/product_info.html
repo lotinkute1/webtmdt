@@ -23,7 +23,7 @@
     <div class="wrapper">
 
         <!-- header -->
-        <header id="header">
+        <header id="header" class="">
             <div class="header-wrapper">
                 <div class="header-top">
                     <div class="header-top-wrapper">
@@ -47,49 +47,75 @@
                             <div class="header__cart__popup">
                                 <div>
                                     <h3 class="header__cart__title">sản phẩm vừa mới thêm</h3>
-                                    <div class="header__cart__item">
-                                        <div class="header__cart__item-img"><img
-                                                src="https://cf.shopee.vn/file/750a433e6af5e7709900f81fa751cd4a" alt="">
+                                    <a href="">
+                                        <div class="header__cart__item">
+                                            <div class="header__cart__item-img"><img
+                                                    src="https://cf.shopee.vn/file/750a433e6af5e7709900f81fa751cd4a"
+                                                    alt=""></div>
+                                            <div class="header__cart__item-name text-wrap1">Apple Watch Series 7 45mm
+                                                GPS Sport Band</div>
+                                            <div class="header__cart__item-price">14.000.000 <span>₫</span></div>
                                         </div>
-                                        <div class="header__cart__item-name text-wrap1">Apple Watch Series 7 45mm GPS
-                                            Sport Band</div>
-                                        <div class="header__cart__item-price">14.000.000 <span>₫</span></div>
-                                    </div>
-                                    <div class="header__cart__item">
-                                        <div class="header__cart__item-img"><img
-                                                src="https://cf.shopee.vn/file/b4d8f2c5ec5de05b98a68ba1fdc17d4c" alt="">
+                                    </a>
+                                    <a href="">
+                                        <div class="header__cart__item">
+                                            <div class="header__cart__item-img"><img
+                                                    src="https://cf.shopee.vn/file/b4d8f2c5ec5de05b98a68ba1fdc17d4c"
+                                                    alt=""></div>
+                                            <div class="header__cart__item-name text-wrap1">Apple Watch Series 7 45mm
+                                                GPS Sport Band</div>
+                                            <div class="header__cart__item-price">990.000 <span>₫</span></div>
                                         </div>
-                                        <div class="header__cart__item-name text-wrap1">Apple Watch Series 7 45mm GPS
-                                            Sport Band</div>
-                                        <div class="header__cart__item-price">990.000 <span>₫</span></div>
-                                    </div>
-                                    <div class="header__cart__item">
-                                        <div class="header__cart__item-img"><img
-                                                src="https://cf.shopee.vn/file/750a433e6af5e7709900f81fa751cd4a" alt="">
+                                    </a>
+                                    <a href="">
+                                        <div class="header__cart__item">
+                                            <div class="header__cart__item-img"><img
+                                                    src="https://cf.shopee.vn/file/750a433e6af5e7709900f81fa751cd4a"
+                                                    alt=""></div>
+                                            <div class="header__cart__item-name text-wrap1">Apple Watch Series 7 45mm
+                                                GPS Sport Band</div>
+                                            <div class="header__cart__item-price">99.999.999 <span>₫</span></div>
                                         </div>
-                                        <div class="header__cart__item-name text-wrap1">Apple Watch Series 7 45mm GPS
-                                            Sport Band</div>
-                                        <div class="header__cart__item-price">99.999.999 <span>₫</span></div>
-                                    </div>
+                                    </a>
                                     <a name="tocart" id="tocart" class="btn btn-tocart" href="#" role="button">Đến giỏ
                                         hàng</a>
                                 </div>
                             </div>
                         </div>
                         <div class="header__user">
-                            <div class="header__user-ava">
-                                <img src="./assets/images/avatest2.jpg" alt="">
+
+                            <!-- logined -->
+                            <div class="header__user-status-logined hidenull">
+
+
+                                <a href="" class="header__user-main ">
+
+                                    <div class="header__user-ava">
+                                        <img src="./assets/images/avatest2.jpg" alt="">
+                                    </div>
+                                    <div class="header__user-name">
+                                        Minh Huy
+                                    </div>
+                                    <div class="header__user-moreinfo">
+                                        <i class="fas fa-ellipsis-v"></i>
+                                    </div>
+                                </a>
+                                <ul class="subnav">
+                                    <li><a href="">Tài khoản của tôi</a></li>
+                                    <li><a href="">Đơn mua</a></li>
+                                    <li><a href="">Đăng xuất</a></li>
+                                </ul>
                             </div>
-                            <div class="header__user-name">
-                                Minh Huy
+
+                            <!-- not login -->
+                            <div class="header__user-not-login ">
+                               <a href="">Đăng nhập</a> / <a href="">Đăng ký</a> 
                             </div>
-                            <div class="header__user-moreinfo">
-                                <i class="fas fa-ellipsis-v"></i>
-                            </div>
+
                         </div>
                     </div>
                 </div>
-                <div class="header-bottom">
+                <div class="header-bottom ">
                     <div class="header__nav">
                         <ul class="header__nav-wrapper">
                             <li class="nav-item">
@@ -461,86 +487,99 @@
                     <div class="comments__title">
                         Bình luận
                     </div>
-                    <!-- comment -->
-                    <div class="comments__comment">
-                        <div class="comment__ava">
-                            <img src="./assets/images/avatest.jfif" alt="" srcset="">
-                        </div>
-                        <div class="comment__main">
-                            <div class="comment__name">Huydeptrai1</div>
-                            <div class="raiting-starts">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star-half-alt"></i>
-                                <i class="far fa-star"></i>
+                    <div class="comments__wrapper">
+                        <!-- comment -->
+                        <div class="comments__comment">
+                            <div class="comment__ava">
+                                <img src="./assets/images/avatest.jfif" alt="" srcset="">
                             </div>
-                            <div class="comment__content">hàng dùng ok, chất lượng tốt, chơi pikachu mượt nhưng có một
-                                điểm trừ là hệ điều hành lại là MacOS tôi thích Window hơn -.-</div>
-                            <div class="comment__time">12-12-2021 10:39</div>
-                            <div class="comment__actions">
-                                <div class="btn btn-like">
-                                    <i class="fas fa-thumbs-up"></i>
+                            <div class="comment__main">
+                                <div class="comment__name">Huydeptrai1</div>
+                                <div class="raiting-starts">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                    <i class="far fa-star"></i>
                                 </div>
-                                <div class="comment__actions__like-count">
-                                    0
+                                <div class="comment__content">hàng dùng ok, chất lượng tốt, chơi pikachu mượt nhưng có
+                                    một
+                                    điểm trừ là hệ điều hành lại là MacOS tôi thích Window hơn -.-</div>
+                                <div class="comment__time">12-12-2021 10:39</div>
+                                <div class="comment__actions">
+                                    <div class="btn btn-like">
+                                        <i class="fas fa-thumbs-up"></i>
+                                    </div>
+                                    <div class="comment__actions__like-count">
+                                        0
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- comment -->
+                        <div class="comments__comment">
+                            <div class="comment__ava">
+                                <img src="./assets/images/avatest.jfif" alt="" srcset="">
+                            </div>
+                            <div class="comment__main">
+                                <div class="comment__name">Huydeptrai2</div>
+                                <div class="raiting-starts">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                                <div class="comment__content">hàng dùng ok, chất lượng tốt, chơi pikachu mượt nhưng có
+                                    một
+                                    điểm trừ là hệ điều hành lại là MacOS tôi thích Window hơn -.-</div>
+                                <div class="comment__time">12-12-2021 10:39</div>
+                                <div class="comment__actions">
+                                    <div class="btn btn-like">
+                                        <i class="fas fa-thumbs-up"></i>
+                                    </div>
+                                    <div class="comment__actions__like-count">
+                                        0
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- comment -->
+                        <div class="comments__comment">
+                            <div class="comment__ava">
+                                <img src="./assets/images/avatest.jfif" alt="" srcset="">
+                            </div>
+                            <div class="comment__main">
+                                <div class="comment__name">Huydeptrai3</div>
+                                <div class="raiting-starts">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                                <div class="comment__content">hàng dùng ok, chất lượng tốt, chơi pikachu mượt nhưng có
+                                    một
+                                    điểm trừ là hệ điều hành lại là MacOS tôi thích Window hơn -.-</div>
+                                <div class="comment__time">12-12-2021 10:39</div>
+                                <div class="comment__actions">
+                                    <div class="btn btn-like">
+                                        <i class="fas fa-thumbs-up"></i>
+                                    </div>
+                                    <div class="comment__actions__like-count">
+                                        0
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <!-- comment -->
-                    <div class="comments__comment">
-                        <div class="comment__ava">
-                            <img src="./assets/images/avatest.jfif" alt="" srcset="">
-                        </div>
-                        <div class="comment__main">
-                            <div class="comment__name">Huydeptrai2</div>
-                            <div class="raiting-starts">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star-half-alt"></i>
-                                <i class="far fa-star"></i>
-                            </div>
-                            <div class="comment__content">hàng dùng ok, chất lượng tốt, chơi pikachu mượt nhưng có một
-                                điểm trừ là hệ điều hành lại là MacOS tôi thích Window hơn -.-</div>
-                            <div class="comment__time">12-12-2021 10:39</div>
-                            <div class="comment__actions">
-                                <div class="btn btn-like">
-                                    <i class="fas fa-thumbs-up"></i>
-                                </div>
-                                <div class="comment__actions__like-count">
-                                    0
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- comment -->
-                    <div class="comments__comment">
-                        <div class="comment__ava">
-                            <img src="./assets/images/avatest.jfif" alt="" srcset="">
-                        </div>
-                        <div class="comment__main">
-                            <div class="comment__name">Huydeptrai3</div>
-                            <div class="raiting-starts">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star-half-alt"></i>
-                                <i class="far fa-star"></i>
-                            </div>
-                            <div class="comment__content">hàng dùng ok, chất lượng tốt, chơi pikachu mượt nhưng có một
-                                điểm trừ là hệ điều hành lại là MacOS tôi thích Window hơn -.-</div>
-                            <div class="comment__time">12-12-2021 10:39</div>
-                            <div class="comment__actions">
-                                <div class="btn btn-like">
-                                    <i class="fas fa-thumbs-up"></i>
-                                </div>
-                                <div class="comment__actions__like-count">
-                                    0
-                                </div>
-                            </div>
-                        </div>
+                    <div class="comments__pagination">
+                        <ul class="pagination">
+                            <li><a href="#">1</a></li>
+                            <li><a href="#">2</a></li>
+                            <li><a href="#">3</a></li>
+                            <li><a href="#">4</a></li>
+                        </ul>
                     </div>
                 </section>
                 <!-- sản phẩm liên quan -->

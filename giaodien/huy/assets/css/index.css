@@ -72,7 +72,9 @@ input {
     /* number of lines to show */
     -webkit-box-orient: vertical;
 }
-
+.hidenull{
+    display: none;
+}
 .hidden {
     opacity: 0;
     visibility: hidden;
@@ -272,8 +274,29 @@ input {
 }
 
 .header__user {
-    display: flex;
     width: 15%;
+    position: relative;
+}
+.header__user-status-logined{
+
+}
+.header__user-not-login{
+    
+}
+.header__user-not-login a:hover{
+    color: var(--yellow-main);
+}
+.header__user .subnav {
+    left: 0;
+    width: 100%;
+}
+.header__user:hover .subnav{
+    opacity: 1;
+    visibility: visible;
+    z-index: 999;
+}
+.header__user-main{
+    display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: var(--yellow-main);
@@ -291,6 +314,7 @@ input {
     border-radius: 50%;
     transform: translateY(0.5px);
 }
+
 
 .header__user-name {
     flex: 1;
@@ -361,7 +385,6 @@ input {
     top: 100%;
     background: white;
     box-shadow: 0 4px 6px #ccc;
-    ;
     text-align: start;
     padding: 15px 0;
     opacity: 0;
@@ -951,7 +974,7 @@ input {
     padding:15px 10px;
     
 }
-.comments__comment:not(:last-child) {
+.comments__comment {
     border-bottom: 1px solid #cececea4;
 }
 .comment__ava{
@@ -992,6 +1015,33 @@ input {
 .comment__actions__like-count{
     color: #b1b1b1;
 }
+.comments__pagination{
+    margin-top:20px;
+    padding:0 20px;
+}
+.comments__pagination .pagination{
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.comments__pagination .pagination li{
+    margin-left: 20px;
+
+}
+.comments__pagination .pagination a{
+    padding:5px 10px;
+    border: 1px solid var(--yellow-main);
+    border-radius: 5px;
+
+}
+.comments__pagination .pagination li.active a{
+    padding:5px 10px;
+    border: 1px solid var(--yellow-main);
+    background-color: var(--yellow-main);
+    color: white;
+    
+}
+
 .product-more-info{
     padding:15px;
     border-radius: 5px;

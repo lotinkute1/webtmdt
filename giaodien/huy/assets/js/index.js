@@ -9,7 +9,7 @@ function hideElement(){
 
     if(window.pageYOffset >= 175) header.classList.add("hidden-header");
     else header.classList.remove("hidden-header")
-
+    
     
     
 };
@@ -68,3 +68,17 @@ likeBtns.forEach((likeBtn,index)=>{
         else likeCount[index].value+=1;
     }
 })
+
+// pagination active button
+const cmtPaginationBtn= document.querySelectorAll(".pagination li");
+for (let i=0;i<cmtPaginationBtn.length;i++){
+    cmtPaginationBtn[i].onclick = (e)=>{
+        e.preventDefault();
+        for(let j=0;j<cmtPaginationBtn.length;j++){
+            if(cmtPaginationBtn[j])
+                cmtPaginationBtn[j].classList.remove("active");
+        }
+        e.target.closest("li").classList.add("active");
+        console.log(cmtPaginationBtn);
+    }
+}
