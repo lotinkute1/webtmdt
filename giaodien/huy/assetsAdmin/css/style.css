@@ -1,0 +1,136 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+a,a:hover{
+	text-decoration: none;
+	color: black;
+}
+img{
+    width: 100%;
+    object-fit: cover;
+}
+input{
+    outline: none;
+    border: none;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+:root {
+    --yellow-main:#ffd900;
+    --aqua-color: rgb(16, 233, 233);
+}
+
+/* container left */
+.nav-bar{
+    position: relative;
+    background-color:white;
+    box-shadow:8px 0 20px -5px rgba(150, 150, 150, 0.438);
+    height: 100%;
+
+    z-index: 999;
+}
+.nav-bar__wrapper{
+    
+    
+}
+.nav-bar__web-logo{
+    background-color:var(--yellow-main);
+    padding:5px 40px;
+}
+.nav-bar__lists{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-self: center;
+}
+.nav-bar__list{
+    padding: 15px 0px 15px 40px;
+    font-size: 20px;
+    font-weight: bold;
+    transition:border .3s;
+}
+.nav-bar__list:hover{
+    border-left:8px solid var(--yellow-main);
+    color: var(--yellow-main);
+    background-color: #ffd9000c;
+    
+}
+
+/* container right */
+.content{
+    background-color: whitesmoke;
+    
+}
+.content__wrapper{
+}
+
+.content__nav{
+    display: flex;
+    padding:10px 20px;
+    position:relative;
+    height: 71px;
+    background-color:var(--yellow-main);
+    
+    z-index: 9999;
+    box-shadow:8px 10px 10px -5px rgba(150, 150, 150, 0.13);
+    margin-bottom:30px;
+}
+.content__nav-left{
+    flex:1;
+    display: flex;
+}
+.search-input{
+    padding: 0px 10px;
+    width: 47%;
+}
+
+.btn:active {
+    
+    background-color:#c0a300;
+
+}
+.btn-search{
+    color:white;
+}
+.btn-search:hover{
+    color:white;
+}
+.content__nav-right{
+    display: flex;
+    justify-content: flex-end;
+    flex:1;
+    position: relative;
+    
+    
+}
+.content__nav__nofications{
+    display: flex;
+    align-items: center;
+}
+.content__nav__nofications i{
+    margin-right: 20px;
+}
+
+
+.content__nav__user{
+    display: flex;
+    padding:0 20px;
+    border-left: 1px solid black;
+    align-items: center;
+}
+.content__nav__user{
+    
+}
+.content__nav__user-ava{
+    width: 40px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.content__nav__user-name{
+    padding: 0 10px;
+    font-weight: bold;
+}
